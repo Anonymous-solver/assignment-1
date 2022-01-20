@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Counters from './components/counters.component';
+import React, { Component } from "react";
+import Counters from "./components/counters.component";
 
 class App extends Component {
-	render() { 
+	render() {
 		return (
 			<>
 				<Counters></Counters>
@@ -10,5 +10,5 @@ class App extends Component {
 		);
 	}
 }
- 
+
 export default App;
